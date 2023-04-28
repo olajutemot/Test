@@ -1,0 +1,42 @@
+.flag div {
+  border: 0px solid black;
+  width: 200px;
+  height: 200px;
+  box-sizing: border-box;
+}
+.green1,
+.green2 {
+  background-color: green;
+  position: absolute;
+  top: 0;
+}
+.white {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 250px;
+}
+.green2 {
+  left: 450px;
+}
+.handle {
+  width: 10px;
+  height: 400px;
+  background-color: black;
+  position: relative;
+  right: 10px;
+  bottom: 50px;
+}
+.border {
+  background-color: white;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 50px;
+  padding: 50px;
+  position: relative;
+  box-sizing: border-box;
+}
+img {
+  position: absolute;
+  top: 40px;
+  left: 280px;
+}

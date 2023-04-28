@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduvtion to HTML</title>
+  </head>
+  <body>
+    <!-- learning about heading  -->
+    <h1>hello world</h1>
+    <h2>this is heading 2</h2>
+    <h3>this is heading 3</h3>
+    <!-- paragraph tag -->
+    <p>hello everyone, my name is timmy and i am a programmer</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+      recusandae?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat non
+      deserunt molestiae rerum? Impedit assumenda error asperiores veniam quae
+      nemo?
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque minus
+      quidem voluptates modi tempora, nisi veniam consequatur delectus quisquam
+      repre henderit error quisnbn accusamus aliquam a aspernatur dignissimos
+      magni consequuntur quaerat voluptatum eligendi laudantium placeat quam
+      optio? Ex molestiae alias totam consectetur at, cum dolorum dolore illum
+      aut. Est provident necessitatibus ab libero. Assumenda facilis quia
+      obcaecati dignissimos fugiat magnam! Molestias perferendis explicabo
+      magnam et similique aut id, esse sit deleniti accusamus doloremque, rem
+      voluptate tenetur laudantium quisquam repellat commodi assumenda. Ratione
+      soluta quas ad. Blanditiis, quisquam dolorem delectus doloremque modi
+      inventore temporibus tempore fuga maiores, consequuntur, nihil amet
+      aliquid sequi.
+    </p>
+    <!-- learning about anchor tag -->
+    <a href="https://github.com/olajutemot">connect with me on github</a>
+    <a href="./products.html"> go to products page</a>
+    <!-- LEARNING ABOUT LIST IN HTML -->
+    <!-- ordered list -->
+    <!-- unordered list -->
+    <h4>An ordered list of my favorite movies</h4>
+    <ol>
+      <li>Alchemy of Souls</li>
+      <li>Blood sisters</li>
+    </ol>
+    <h4>An unordered list of my favorite movies</h4>
+    <ul>
+      <li>Alchemy of Souls</li>
+      <li>Blood sisters</li>
+    </ul>
+    <!-- MULTIMEDIA IN HTML -->
+    <img src="./bugatti.jpg" height="300" alt="This is an image of a bugatti" />
+    <video src="./video.mp4" controls muted width="auto" height="300"></video>
+    <audio src="./audio.mp3" controls></audio>
+    <!--learning about Form elements -->
+    <form method="post">
+      <fieldset>
+        <legend align="center">REQUIRED INFORMATION</legend>
+        <label for="firstname">Firstname:</label>
+        <input type="text" placeholder="Enter your name" id="firstname" />
+        <br /><br />
+        <label for="lastname">Lastname:</label>
+        <input type="text" placeholder="Enter your name" id="lastname" />
+        <br /><br />
+        <label for="password">password:</label>
+        <input
+          type="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+        <!-- to input a single option -->
+        <p>Select your gender</p>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">male</label>
+        <br />
+        <input type="radio" id="female" name="gender" />
+        <label for="female">female</label>
+        <br />
+        <input type="radio" id="other" name="gender" />
+        <label for="other">other</label>
+        <br />
+        <p>where are you from?</p>
+        <select>
+          <optgroup label="South West">
+            <option value=""></option>
+            <option value="osun">osun</option>
+            <option value="lagos">lagos</option>
+            <option value="oyo">oyo</option>
+          </optgroup>
+          <optgroup label="South South">
+            <option value="Delta">Delta</option>
+            <option value="Ebonyi">Ebonyi</option>
+            <option value="Bayelsa">Bayelsa</option>
+          </optgroup>
+          <optgroup label="South East">
+            <option value="Anambra">Anambra</option>
+            <option value="Imo">Imo</option>
+            <option value="Enugu">Enugu</option>
+          </optgroup>
+        </select>
+      </fieldset>
+      <!-- to select multiple choice -->
+      <br />
+      <fieldset>
+        <legend align="center">QUESTIONS</legend>
+        <p>Select your favorite subject</p>
+        <label for="Math">Math</label>
+        <input type="checkbox" id="Math" name="subjects" />
+        <br />
+        <label for="English">English</label>
+        <input type="checkbox" id="English" name="subjects" />
+        <br />
+        <label for="chemistry">chemistry</label>
+        <input type="checkbox" id="chemistry" name="subjects" />
+      </fieldset>
+      <br />
+      <!-- to sumit form -->
+      <input type="submit" value="send" />
+      <!-- other types of input -->
+      <input type="date" />
+      <input type="color" />
+      <input type="number" />
+      <!-- to check all goto html input types/w3schools -->
+      <!-- learning about text area -->
+      <textarea rows="" cols=""></textarea>
+    </form>
+  </body>
+</html>
